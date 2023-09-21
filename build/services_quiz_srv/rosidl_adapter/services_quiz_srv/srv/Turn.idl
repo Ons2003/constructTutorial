@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from services_quiz_srv/srv/Turn.srv
+// generated code does not contain a copyright notice
+
+
+module services_quiz_srv {
+  module srv {
+    struct Turn_Request {
+      @verbatim (language="comment", text=
+        "Direction to spin (right or left)")
+      string direction;
+
+      @verbatim (language="comment", text=
+        "Angular Velocity (in rad/s)")
+      double angular_velocity;
+
+      @verbatim (language="comment", text=
+        "Duration of the spin (in seconds)")
+      int32 time;
+    };
+    struct Turn_Response {
+      @verbatim (language="comment", text=
+        "Did it achieve it?")
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,42 @@
+[0.021s] Invoking command in '/home/user/ros2_ws/build/custom_interfaces': _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/custom_interfaces
+[0.049s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.326s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[0.390s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.395s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.408s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.433s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.467s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.588s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.592s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.870s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.160s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.180s] -- Found action_msgs: 1.2.0 (/opt/ros/humble/share/action_msgs/cmake)
+[1.284s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.393s] Error parsing '/home/user/ros2_ws/src/custom_interfaces/package.xml':
+[1.393s] Traceback (most recent call last):
+[1.393s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.394s]     main()
+[1.394s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.394s]     raise e
+[1.394s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.394s]     package = parse_package_string(
+[1.394s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[1.395s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[1.395s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/user/ros2_ws/src/custom_interfaces/package.xml':
+[1.395s] Error(s):
+[1.395s] - The generic dependency on 'rosidl_default_generators' is redundant with: build_depend
+[1.416s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.418s]   execute_process(/usr/bin/python3.10
+[1.418s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.418s]   /home/user/ros2_ws/src/custom_interfaces/package.xml
+[1.419s]   /home/user/ros2_ws/build/custom_interfaces/ament_cmake_core/package.cmake)
+[1.419s]   returned error code 1
+[1.419s] Call Stack (most recent call first):
+[1.420s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.420s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.420s]   CMakeLists.txt:25 (ament_lint_auto_find_test_dependencies)
+[1.420s] 
+[1.421s] [0m
+[1.421s] -- Configuring incomplete, errors occurred!
+[1.421s] See also "/home/user/ros2_ws/build/custom_interfaces/CMakeFiles/CMakeOutput.log".
+[1.421s] Invoked command in '/home/user/ros2_ws/build/custom_interfaces' returned '1': _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/custom_interfaces

@@ -1,0 +1,6 @@
+[console_scripts]
+callback_groups_examples = unit5_pkg.callback_groups_examples:main
+exercise51 = unit5_pkg.exercise51:main
+exercise52 = unit5_pkg.exercise52:main
+exercise53 = unit5_pkg.exercise53:main
+

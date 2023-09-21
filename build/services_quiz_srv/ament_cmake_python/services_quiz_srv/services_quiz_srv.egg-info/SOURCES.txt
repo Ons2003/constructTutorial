@@ -1,0 +1,6 @@
+setup.py
+services_quiz_srv/__init__.py
+services_quiz_srv.egg-info/PKG-INFO
+services_quiz_srv.egg-info/SOURCES.txt
+services_quiz_srv.egg-info/dependency_links.txt
+services_quiz_srv.egg-info/top_level.txt

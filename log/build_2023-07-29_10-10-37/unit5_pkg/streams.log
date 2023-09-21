@@ -1,0 +1,33 @@
+[1.273s] Invoking command in '/home/user/ros2_ws/src/unit5_pkg': PYTHONPATH=/home/user/ros2_ws/install/unit5_pkg/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/unit5_pkg build --build-base /home/user/ros2_ws/build/unit5_pkg/build install --prefix /home/user/ros2_ws/install/unit5_pkg --record /home/user/ros2_ws/build/unit5_pkg/install.log --single-version-externally-managed
+[1.763s] running egg_info
+[1.763s] writing ../../build/unit5_pkg/unit5_pkg.egg-info/PKG-INFO
+[1.764s] writing dependency_links to ../../build/unit5_pkg/unit5_pkg.egg-info/dependency_links.txt
+[1.764s] writing entry points to ../../build/unit5_pkg/unit5_pkg.egg-info/entry_points.txt
+[1.770s] writing requirements to ../../build/unit5_pkg/unit5_pkg.egg-info/requires.txt
+[1.770s] writing top-level names to ../../build/unit5_pkg/unit5_pkg.egg-info/top_level.txt
+[1.770s] reading manifest file '../../build/unit5_pkg/unit5_pkg.egg-info/SOURCES.txt'
+[1.771s] writing manifest file '../../build/unit5_pkg/unit5_pkg.egg-info/SOURCES.txt'
+[1.771s] running build
+[1.771s] running build_py
+[1.771s] copying unit5_pkg/exercise53.py -> /home/user/ros2_ws/build/unit5_pkg/build/lib/unit5_pkg
+[1.772s] copying unit5_pkg/callback_groups_examples.py -> /home/user/ros2_ws/build/unit5_pkg/build/lib/unit5_pkg
+[1.773s] running install
+[1.773s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.773s]   warnings.warn(
+[1.773s] running install_lib
+[1.775s] copying /home/user/ros2_ws/build/unit5_pkg/build/lib/unit5_pkg/exercise53.py -> /home/user/ros2_ws/install/unit5_pkg/lib/python3.10/site-packages/unit5_pkg
+[1.775s] copying /home/user/ros2_ws/build/unit5_pkg/build/lib/unit5_pkg/callback_groups_examples.py -> /home/user/ros2_ws/install/unit5_pkg/lib/python3.10/site-packages/unit5_pkg
+[1.776s] byte-compiling /home/user/ros2_ws/install/unit5_pkg/lib/python3.10/site-packages/unit5_pkg/exercise53.py to exercise53.cpython-310.pyc
+[1.778s] byte-compiling /home/user/ros2_ws/install/unit5_pkg/lib/python3.10/site-packages/unit5_pkg/callback_groups_examples.py to callback_groups_examples.cpython-310.pyc
+[1.779s] running install_data
+[1.780s] copying launch/exercise53.launch.py -> /home/user/ros2_ws/install/unit5_pkg/share/unit5_pkg/launch
+[1.781s] running install_egg_info
+[1.784s] removing '/home/user/ros2_ws/install/unit5_pkg/lib/python3.10/site-packages/unit5_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.784s] Copying ../../build/unit5_pkg/unit5_pkg.egg-info to /home/user/ros2_ws/install/unit5_pkg/lib/python3.10/site-packages/unit5_pkg-0.0.0-py3.10.egg-info
+[1.786s] running install_scripts
+[1.824s] Installing callback_groups_examples script to /home/user/ros2_ws/install/unit5_pkg/lib/unit5_pkg
+[1.824s] Installing exercise51 script to /home/user/ros2_ws/install/unit5_pkg/lib/unit5_pkg
+[1.824s] Installing exercise52 script to /home/user/ros2_ws/install/unit5_pkg/lib/unit5_pkg
+[1.825s] Installing exercise53 script to /home/user/ros2_ws/install/unit5_pkg/lib/unit5_pkg
+[1.825s] writing list of installed files to '/home/user/ros2_ws/build/unit5_pkg/install.log'
+[1.863s] Invoked command in '/home/user/ros2_ws/src/unit5_pkg' returned '0': PYTHONPATH=/home/user/ros2_ws/install/unit5_pkg/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/unit5_pkg build --build-base /home/user/ros2_ws/build/unit5_pkg/build install --prefix /home/user/ros2_ws/install/unit5_pkg --record /home/user/ros2_ws/build/unit5_pkg/install.log --single-version-externally-managed

@@ -1,0 +1,4 @@
+[console_scripts]
+turn_client = services_quiz.client_service:main
+turn_server = services_quiz.server_service:main
+
